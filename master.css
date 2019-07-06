@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  width: 100%;
+  height: 125px;
+  background-color: gray;
+  color: lightblue;
+}
+
+#controls{
+  display: flex;
+  padding-left: 20%;
+  background-color: lightgray;
+  color: blue;
+}
+
+#yearSelect, #dataSelect{
+margin: auto;
+}

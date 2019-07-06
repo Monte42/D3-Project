@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="master.css">
+    <title></title>
+  </head>
+  <body>
+
+    <div id="header">
+      <h1>Header</h1>
+    </div>
+    <div id="controls">
+      <span>2014<input id="yearSelect" type="range" value="1">2017</span>
+
+      <select id="dataSelect">
+        <option value="violent">Violent</option>
+        <option value="murder">Murder</option>
+        <option value="rape">Rape</option>
+        <option value="robbery">Robbery</option>
+        <option value="assault">Assault</option>
+        <option value="vandalism">Vandalism</option>
+        <option value="burglary">Burglary</option>
+        <option value="larceny">Larceny</option>
+        <option value="gta">Grand Theft Auto</option>
+        <option value="totalCrimes">Total Crimes Committed</option>
+        <option value="lawPerCrime">Crimes Committed per Gun Law</option>
+      </select>
+    </div>
+    <svg id="map"></svg>
+    <svg id="bar"></svg>
+    <svg id="pie"></svg>
+
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
+    <script src="app.js"></script>
+
+  </body>
+</html>
